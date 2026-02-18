@@ -1,3 +1,10 @@
+/*
+1 - Adicionar validação de (data fim não pode ser menor que que data início)
+2 - Adicionar validação de (data início não poder ser maior que data fim)
+3 - Adicionar validação de, não obrigar a preencher a data fim porque haverá momentos em que o usuário não saberá exatamente o horário
+de retorno.
+*/
+
 import React, { useState } from "react";
 import "./Ausencias.css";
 
