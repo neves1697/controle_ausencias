@@ -8,6 +8,7 @@ export default function Ausencias() {
   const [form, setForm] = useState({
     nome: "",
     motivo: "",
+    observacao: "",
     inicio: "",
     fim: "",
   });
@@ -35,6 +36,7 @@ export default function Ausencias() {
     setForm({
       nome: "",
       motivo: "",
+      observacao: "",
       inicio: "",
       fim: "",
     });
@@ -76,6 +78,14 @@ export default function Ausencias() {
           onChange={handleChange}
         />
 
+        <input 
+        type="text"
+        name="observacao"
+        placeholder="Observação"
+        value={form.observacao}
+        onChange={handleChange}
+        />
+
         <input
           type="datetime-local"
           name="inicio"
@@ -100,6 +110,7 @@ export default function Ausencias() {
           <tr>
             <th>Nome</th>
             <th>Motivo</th>
+            <th>Observação</th>
             <th>Início</th>
             <th>Fim</th>
             <th>Ações</th>
@@ -110,6 +121,7 @@ export default function Ausencias() {
             <tr key={index}>
               <td>{item.nome}</td>
               <td>{item.motivo}</td>
+              <td>{item.observacao}</td>
               <td>{item.inicio}</td>
               <td>{item.fim}</td>
               <td>
