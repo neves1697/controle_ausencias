@@ -6,7 +6,7 @@ import BarraNavegacaoLateral from "../src/Components/BarraNavegacao"
 function App() {
   return (
     <div className="App">
-      <BarraNavegacaoLateral />
+      <Ausencias />
     </div>
   );
 }
