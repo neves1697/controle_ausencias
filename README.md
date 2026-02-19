@@ -19,4 +19,4 @@ Posteriormente podendo ter acesso à históricos das ausências, motivos, observ
 * Ter um botão (Editar) que servirá para editar algum registro que foi cadastrado com alguma informação incorreta.
 * Ter um botão (Remover) que servirá para remover os registros de ausências da linha selecionada.
 * Ter uma função que seja possível visualizar os históricos das informações.
-*
+* Se comunicar com o banco de dados PostgreSQL.
