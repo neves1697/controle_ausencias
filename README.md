@@ -22,10 +22,7 @@ Posteriormente podendo ter acesso à históricos das ausências, motivos, observ
 * Ter um botão (Remover) que servirá para remover os registros de ausências da linha selecionada.
 * Ter uma função que seja possível visualizar os históricos das informações.
 * Se comunicar com o banco de dados PostgreSQL.
-<<<<<<< HEAD
 * Avaliar a possibilidade de adicionar perfil de acesso.
 ### Não essenciais
 * Colocar tema de claro/escuro
-=======
 
->>>>>>> bbdd70f565ab2099ae6fe33dcab5be29c9d04469
