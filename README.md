@@ -12,6 +12,7 @@ Posteriormente podendo ter acesso à históricos das ausências, motivos, observ
     * Deve conter um campo chamado (Observação) para fins de alguma observação que não se encaixe no motivo.
     * Conter um campo chamado (Inicio) que será um campo do tipo Data hora, sendo possível registrar o dia do mês e hora que aquela ausência iniciará.
     * Conter um campo chamado (Fim) que será um campo do tipo Data hora, sendo possível registrar o dia do mês e hora que a ausência será finalizada.
+    * Ter controle de quantas horas a pessoa ficou ausente.
     * Para os campos de (Inicio e Fim), considerar as seguintes regras:
         * A máscara será dd/mm/aaaa hh:mm.
         * O campo (Inicio) não pode conter uma data/hora maior que o campo (Fim).
@@ -21,6 +22,10 @@ Posteriormente podendo ter acesso à históricos das ausências, motivos, observ
 * Ter um botão (Remover) que servirá para remover os registros de ausências da linha selecionada.
 * Ter uma função que seja possível visualizar os históricos das informações.
 * Se comunicar com o banco de dados PostgreSQL.
+<<<<<<< HEAD
 * Avaliar a possibilidade de adicionar perfil de acesso.
 ### Não essenciais
 * Colocar tema de claro/escuro
+=======
+
+>>>>>>> bbdd70f565ab2099ae6fe33dcab5be29c9d04469
