@@ -1,12 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import Ausencias from "./pages/Ausencias"
-import BarraNavegacaoLateral from "../src/Components/BarraNavegacao"
+import "./App.css";
+import Ausencias from "./pages/Ausencias";
+import BarraNavegacaoLateral from "./Components/BarraNavegacao"
 
 function App() {
   return (
-    <div className="App">
+    <div style={{ display: "flex" }}>
       <BarraNavegacaoLateral />
+
+      <div style={{ marginLeft: "240px", width: "100%" }}>
+        <Ausencias />
+      </div>
     </div>
   );
 }

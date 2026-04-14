@@ -5,6 +5,7 @@ Há momentos em que os colaboradores precisam se ausentar por motivos pessoais, 
 Então esta aplicação tem a finalidade de facilitar esse processo, onde tais informações pode ser registradas em um só lugar. 
 Posteriormente podendo ter acesso à históricos das ausências, motivos, observações, datas etc.
 ## Regras
+### Essenciais
 * A aplicação deve possibilitar gravar as informações de
     * Nome dos colaboradores.
     * Motivo da ausência.
@@ -20,3 +21,6 @@ Posteriormente podendo ter acesso à históricos das ausências, motivos, observ
 * Ter um botão (Remover) que servirá para remover os registros de ausências da linha selecionada.
 * Ter uma função que seja possível visualizar os históricos das informações.
 * Se comunicar com o banco de dados PostgreSQL.
+* Avaliar a possibilidade de adicionar perfil de acesso.
+### Não essenciais
+* Colocar tema de claro/escuro
