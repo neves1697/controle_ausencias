@@ -5,7 +5,7 @@ const BarraNavegacaoLateral = () => {
   return (
     <div className="sidebar">
       <div className="sidebar-logo">
-        <h2>Controle</h2>
+        <h2>Controle de ausências</h2>
         <span>Ausências</span>
       </div>
 
@@ -16,7 +16,7 @@ const BarraNavegacaoLateral = () => {
       </nav>
 
       <div className="sidebar-footer">
-        <small>Sistema Interno</small>
+        <small>Autor: Anderson Neves</small>
       </div>
     </div>
   );

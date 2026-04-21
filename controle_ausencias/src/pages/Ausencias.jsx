@@ -146,6 +146,9 @@ export default function Ausencias() {
       <button className="btn-save" onClick={handleSalvar}>
         Salvar
       </button>
+      <div className="footer_inicio">
+        <footer>Autor: Anderson Neves</footer>
+      </div>
     </div>
   );
 }
