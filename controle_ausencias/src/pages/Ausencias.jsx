@@ -24,6 +24,11 @@ export default function Ausencias() {
       return;
     }
 
+  if(form.inicio > form.fim){
+    alert('Início maior que fim. Verifique!!!');
+    return;
+  }
+
     if (editIndex !== null) {
       const novosRegistros = [...registros];
       novosRegistros[editIndex] = form;
@@ -59,7 +64,7 @@ export default function Ausencias() {
 
   return (
     <div className="ausencias-container">
-      <h2>Controle de Ausências 1.0</h2>
+      <h2>Controle de Ausências - Versão Beta</h2>
 
       <div className="form-card">
         <input
@@ -78,12 +83,12 @@ export default function Ausencias() {
           onChange={handleChange}
         />
 
-        <input 
-        type="text"
-        name="observacao"
-        placeholder="Observação"
-        value={form.observacao}
-        onChange={handleChange}
+        <input
+          type="text"
+          name="observacao"
+          placeholder="Observação"
+          value={form.observacao}
+          onChange={handleChange}
         />
 
         <input
