@@ -24,10 +24,10 @@ export default function Ausencias() {
       return;
     }
 
-  if(form.inicio > form.fim){
-    alert('Início maior que fim. Verifique!!!');
-    return;
-  }
+    if (form.inicio > form.fim) {
+      alert('Início maior que fim. Verifique!!!');
+      return;
+    }
 
     if (editIndex !== null) {
       const novosRegistros = [...registros];

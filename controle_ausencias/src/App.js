@@ -1,15 +1,26 @@
+import { useState } from "react";
 import "./App.css";
 import Ausencias from "./pages/Ausencias";
 import BarraNavegacaoLateral from "./Components/BarraNavegacao";
+import Login from "./pages/Login";
 
 function App() {
-  return (
-    <div style={{ display: "flex" }}>
-      <BarraNavegacaoLateral />
+  const [logado, setLogado] = useState(false);
 
-      <div style={{ marginLeft: "240px", width: "100%" }}>
-        <Ausencias />
-      </div>
+  return (
+    <div>
+      {
+        logado ? (
+          <>
+            <BarraNavegacaoLateral />
+            <div style={{ marginLeft: "240px" }}>
+              <Ausencias />
+            </div>
+          </>
+        ) : (
+          <Login onLogin={setLogado} />
+        )
+      }
     </div>
   );
 }
